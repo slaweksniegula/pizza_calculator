@@ -1,0 +1,24 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+}
+
+.tableCell {
+    border: 1px solid hsla(0, 1%, 32%, 0.973);
+    padding: 5px;
+    text-align: center;
+}
+
+.tableHeader {
+    background-color: hsla(60, 87%, 56%, 0.801);
+    font-weight: normal;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.tableTitle {
+    margin: 10px;
+}

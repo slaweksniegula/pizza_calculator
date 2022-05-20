@@ -1,0 +1,70 @@
+.form__field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.form__field:focus {
+    outline: none;
+    border: 2px solid hsla(0, 1%, 68%, 0.973);
+}
+
+.form__header {
+    font-size: 25px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.form__button {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background-color: hsla(60, 87%, 56%, 0.801);
+    cursor: pointer;
+}
+
+.form__register {
+    text-decoration: none;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    border-radius: 5px;
+    color:black;
+    background-color: hsla(60, 87%, 56%, 0.801);
+}
+
+.form__login {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.form__login:hover {
+    color: hsla(0, 1%, 32%, 0.973);
+}
+
+.form__login:active {
+    color: hsla(0, 1%, 60%, 0.973);
+}
+
+.form__button:hover {
+    background-color: hsla(60, 87%, 52%, 0.801);
+}
+
+.form__button:active {
+    background-color: hsla(60, 87%, 48%, 0.801);
+}
+
+.form__register:hover {
+    background-color: hsla(60, 87%, 52%, 0.801);
+}
+
+.form__register:active {
+    background-color: hsla(60, 87%, 48%, 0.801);
+}
